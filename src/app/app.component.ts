@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { WeatherService } from './service/weather.service';
+import { Weather } from './modules/weather';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weatherApp';
+  
+ 
 }
