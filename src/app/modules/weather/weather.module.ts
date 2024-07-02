@@ -5,6 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'logs' },
   { path: 'logs', component: WeatherlogsComponent },
@@ -21,7 +23,8 @@ const routes: Routes = [
     CommonModule,
     MatCardModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    MatSnackBarModule
 
   ]
 })
